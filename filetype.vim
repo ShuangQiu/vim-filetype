@@ -12,6 +12,6 @@ autocmd BufRead,BufNewFile *.dc,.synopsys*    setfiletype synopsys
 autocmd BufRead,BufNewFile cds.lib            setfiletype cdslib
 
 autocmd BufRead */spectre/schematic/netlist/netlist  setf spectre
-"autocmd BufRead,BufNewFile * if getline(2) =~ '^\/\/\sLibrary\sname:'|setf spectre|endif
+autocmd BufRead,BufNewFile * if getline(2) =~ '^\/\{2}\sLibrary\sname:' && getline(3) =~ '^\/\{2}\sCell\sname:' && getline(4) =~ '^\/\{2}\sView\sname:'|setf spectre|endif
 
 augroup END
