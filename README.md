@@ -1,9 +1,11 @@
-dotvim
+vim filetype detector
 ======
 
-Here is only some personal syntax files, 
+This is not a actual plugin, no additional function, just some syntax files and filetype.vim.
 
-settings are in mine other repos:
+only some personal usage. 
+
+my vim settings are in mine other repos:
 
 
 [dotfiles](http://github.com/bkbncn/dotfiles) for OS X
