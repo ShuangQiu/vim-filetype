@@ -1,0 +1,809 @@
+
+" Vim dictionary file "
+
+" Language:	PrimeTime/TCL "
+" Maintainer:	Paul Zimmer <paulzimmer@zimmerdesignservices.com> "
+" Original:	Paul Zimmer <paulzimmer@zimmerdesignservices.com> "
+" Version:	11.62 Fri Mar 10 11:26:30 PST 2017 "
+" "
+" "
+
+
+" Attributes "
+
+" Built-in Variables "
+_cmd_timestamp_on
+alternate_strategy_custom_script
+alternate_strategy_job_env
+alternate_strategy_job_options
+alternate_strategy_monitor_env
+alternate_strategy_monitor_options
+alternate_strategy_post_verify_script
+alternate_strategy_pre_verify_script
+architecture_selection_precedence
+auto_index
+auto_noexec
+auto_path
+bus_dimension_separator_style
+bus_extraction_style
+bus_multiple_separator_style
+bus_naming_style
+bus_range_separator_style
+collection_result_display_limit
+confirmed_SVA
+dc_product_build_date
+dc_product_version
+diagnosis_cone_size_limit
+diagnosis_enable_error_isolation
+diagnosis_enable_find_matching_regions
+diagnosis_pattern_limit
+dp_int_round_verify_propagation
+dw_foundation_threshold
+enable_multiplier_generation
+equivalent_nets_timeout_limit
+err
+fm_enable_formality_synplify_flow
+fm_enable_minpower_formality_synplify_flow
+fm_hier_result_array
+fm_work_path
+formality_log_name
+golden_upf_report_missing_objects
+golden_upf_version
+gui_report_length_limit
+gui_transcript_line_length
+hdl_naming_threshold
+hdlin_allow_partial_pg_netlist
+hdlin_auto_netlist
+hdlin_auto_top
+hdlin_define_synthesis_macro
+hdlin_disable_tetramax_define
+hdlin_do_inout_port_fixup
+hdlin_dwhomeip
+hdlin_dwroot
+hdlin_dyn_array_bnd_check
+hdlin_enable_assertions
+hdlin_enable_hier_naming
+hdlin_enable_time_decl
+hdlin_enable_upf_compatible_naming
+hdlin_enable_verilog_assert
+hdlin_enable_verilog_configurations
+hdlin_error_on_duplicate_design
+hdlin_error_on_supply_type_port
+hdlin_field_naming_style
+hdlin_hierarchy_separator_style
+hdlin_ignore_builtin
+hdlin_ignore_dc_script
+hdlin_ignore_embedded_configuration
+hdlin_ignore_full_case
+hdlin_ignore_label
+hdlin_ignore_label_applies_to
+hdlin_ignore_map_to_module
+hdlin_ignore_map_to_operator
+hdlin_ignore_parallel_case
+hdlin_ignore_resolution_method
+hdlin_ignore_synthesis
+hdlin_ignore_translate
+hdlin_infer_function_local_latches
+hdlin_interface_only
+hdlin_keep_feedback
+hdlin_library_assume_switch_pdf
+hdlin_library_attribute_interface_only
+hdlin_library_auto_correct
+hdlin_library_cell_merge_port
+hdlin_library_directory
+hdlin_library_file
+hdlin_library_ignore_errors
+hdlin_library_preserve_bbox_attributes
+hdlin_library_report_summary
+hdlin_link_portname_allow_period_to_match_underscore
+hdlin_merge_parallel_switches
+hdlin_multiplier_architecture
+hdlin_normalize_blackbox_busses
+hdlin_physical_only_cells
+hdlin_power_config_db_library
+hdlin_preserve_assignment_direction
+hdlin_sv_auto_decl_inits
+hdlin_sv_packages
+hdlin_sv_port_name_style
+hdlin_sv_union_member_naming
+hdlin_sverilog_std
+hdlin_unresolved_modules
+hdlin_upf_library
+hdlin_upf_models
+hdlin_use_hierarchical_register_names
+hdlin_use_partial_modeled_cells
+hdlin_use_vhdl_gen_hierarchy_for_naming
+hdlin_verilog_directive_prefixes
+hdlin_verilog_ignore_var_redeclaration
+hdlin_verilog_named_generate_blocks
+hdlin_verilog_wired_net_interpretation
+hdlin_vhdl_auto_file_order
+hdlin_vhdl_directive_prefixes
+hdlin_vhdl_disable_file_reread
+hdlin_vhdl_forgen_inst_naming
+hdlin_vhdl_fsm_encoding
+hdlin_vhdl_integer_range_constraint
+hdlin_vhdl_mixed_language_instantiation
+hdlin_vhdl_others_covers_extra_states
+hdlin_vhdl_presto_naming
+hdlin_vhdl_presto_shift_div
+hdlin_vhdl_std
+hdlin_vhdl_strict_libs
+hdlin_vhdl_use_87_concat
+hdlin_vrlg_std
+hdlin_while_loop_iterations
+hdlin_xlrm_resolve_overloaded_functions
+impl
+library_assume_pg_pins
+library_interface_only
+library_pg_file_pattern
+message_level_mode
+message_x_source_reporting
+mw_logic0_net
+mw_logic1_net
+name_match
+name_match_allow_subset_match
+name_match_based_on_nets
+name_match_filter_chars
+name_match_flattened_hierarchy_separator_style
+name_match_multibit_register_reverse_order
+name_match_net
+name_match_pin_net
+name_match_use_filter
+port_complement_naming_style
+ref
+schematic_cone_group_operators
+schematic_expand_logic_cone
+search_path
+sh_allow_tcl_with_set_app_var
+sh_allow_tcl_with_set_app_var_no_message_list
+sh_arch
+sh_command_abbrev_mode
+sh_command_abbrev_options
+sh_command_log_file
+sh_continue_on_error
+sh_deprecated_is_error
+sh_dev_null
+sh_enable_line_editing
+sh_enable_page_mode
+sh_enable_stdout_redirect
+sh_help_shows_group_overview
+sh_line_editing_mode
+sh_man_browser_mode
+sh_obsolete_is_error
+sh_product_version
+sh_script_stop_severity
+sh_source_emits_line_numbers
+sh_source_logging
+sh_source_uses_search_path
+sh_tcllib_app_dirname
+sh_user_man_path
+signature_analysis_allow_net_match
+signature_analysis_allow_subset_match
+signature_analysis_match_blackbox_input
+signature_analysis_match_blackbox_output
+signature_analysis_match_compare_points
+signature_analysis_match_datapath
+signature_analysis_match_hierarchy
+signature_analysis_match_net
+signature_analysis_match_pin_net
+signature_analysis_match_primary_input
+signature_analysis_match_primary_output
+svf_checkpoint
+svf_checkpoint_save_session
+svf_checkpoint_stop_when_rejected
+svf_datapath
+svf_dc_link_library
+svf_dc_target_library
+svf_ignore_unqualified_fsm_information
+svf_inv_push
+svf_port_constant
+svf_retiming
+svf_scan
+svr_keep_supply_nets
+symbol_library
+synopsys_auto_setup
+synopsys_auto_setup_filter
+synopsys_program_name
+synopsys_root
+tcl_interactive
+tcl_library
+tcl_patchLevel
+tcl_pkgPath
+tcl_platform
+tcl_precision
+tcl_version
+template_naming_style
+template_parameter_style
+template_separator_style
+ultra_use_eco_license
+upf_allow_bias_pin_connection
+upf_allow_domain_merging
+upf_allow_rtl_pgnet_name_space_conflict
+upf_allow_unverified_write_power_model
+upf_assume_related_supply_default_primary
+upf_auto_invert_ground_match
+upf_bbox_use_switch_ack
+upf_create_implicit_supply_sets
+upf_derive_pst_constraints
+upf_derive_supply_constants
+upf_enable_state_propagation_in_add_power_state
+upf_enforce_strict_name_checks
+upf_ground_logic_value
+upf_hetero_fanout_isolation
+upf_implementation_based_on_file_headers
+upf_implemented_constructs
+upf_iso_filter_elements_with_applies_to
+upf_isols_allow_instances_in_elements
+upf_name_map
+upf_report_inferred_isolation
+upf_suppress_etm_model_checking
+upf_suppress_message_in_etm
+upf_use_additional_db_attributes
+upf_warn_on_failed_parallel_resolved_check
+upf_warn_on_failed_port_attribute_check
+upf_warn_on_invalid_set_scope
+upf_warn_on_missing_csn_object
+upf_warn_on_missing_name_map
+upf_warn_on_undriven_backup_pgpin
+verification_allow_hardware_x_semantics
+verification_alternate_strategy
+verification_alternate_strategy_names
+verification_assume_reg_init
+verification_asynch_bypass
+verification_auto_loop_break
+verification_auto_session
+verification_auto_session_threshold
+verification_blackbox_match_mode
+verification_clock_gate_edge_analysis
+verification_clock_gate_hold_mode
+verification_constant_prop_mode
+verification_datapath_effort_level
+verification_effort_level
+verification_enforce_strict_name_match_bbox_pins
+verification_failing_point_limit
+verification_force_upf_supplies_on
+verification_ignore_unmatched_always_on_pg_pins
+verification_ignore_unmatched_implementation_blackbox_input
+verification_ignore_unmatched_implementation_output_port
+verification_incremental_mode
+verification_insert_upf_clock_cutpoints
+verification_insert_upf_isolation_cutpoints
+verification_insert_upf_macro_cutpoints
+verification_inversion_push
+verification_merge_duplicated_registers
+verification_netlist_verify_mode
+verification_parameter_checking
+verification_partition_timeout_limit
+verification_passing_mode
+verification_progress_report_interval
+verification_propagate_const_reg_x
+verification_run_analyze_points
+verification_set_undriven_signals
+verification_status
+verification_timeout_limit
+verification_verify_directly_undriven_output
+verification_verify_power_off_states
+verification_verify_unread_bbox_inputs
+verification_verify_unread_compare_points
+verification_verify_unread_tech_cell_pins
+verification_verify_upf_supplies
+verification_warn_on_nonstrict_name_match_bbox_pins
+
+" Commands "
+::set::highlights 
+_version 
+add_to_collection  -unique
+after 
+alias 
+all_inputs 
+all_outputs 
+all_registers  -cells -clock_pins -data_pins -no_hierarchy -output_pins
+analyze_points  -aborted -all -effort -failing -last -limit -no_operator_svp -unverified
+analyze_upf  -container -i -r
+append 
+append_to_collection  -unique
+apply 
+apply_edits 
+apropos  -symbols_only
+array anymore donesearch exists get names nextelement set size startsearch statistics unset
+binary 
+break 
+case 
+catch 
+cd 
+chan 
+change_link 
+check_license 
+close 
+commit_edits 
+compare_collections  -order_dependent
+compare_edits  -list
+concat 
+connect_net  -hier
+continue 
+copy_collection 
+cores_used 
+coroutine 
+cputime 
+create_cell  -connections
+create_command_group  -info
+create_constraint_type 
+create_container 
+create_cutpoint_blackbox  -invert -type
+create_eco_patch  -prefix -replace
+create_net  -ground -pins -power -tie_high -tie_low
+create_port  -direction
+create_primitive  -connections -size
+current_container 
+current_design 
+current_instance 
+current_prefix 
+date 
+debug_library_cell 
+define_design_lib  -container -i -path -r
+define_primitive_pg_pins  -ground -power -power_down
+define_proc_attributes  -command_group -define_arg_groups -define_args -dont_abbrev -hidden -hide_body -info -permanent -return boolean float int list merge_duplicates one_of_string optional remainder required string value_help values
+diagnose  -all -effort_level -pattern_limit
+dict 
+discard_edits 
+disconnect_net  -all
+echo  -n
+edit_design  -hierarchy
+elaborate_library_cells 
+elapsed_time 
+else 
+elseif 
+encoding 
+end_alternate_strategies  -directory -strategies
+eof 
+error 
+error_info 
+eval 
+exec 
+exit 
+expr abs acos asin atan atan2 ceil cos cosh double exp floor fmod hypot int log log10 pow round sin sinh sqrt tan tanh
+fblocked 
+fconfigure 
+fcopy 
+file  -force atime attributes channels copy delete dirname executable exists extension isdirectory isfile join link lstat mkdir mtime nativename normalize owned pathtype readable readlink rename rootname separator size split stat system tail type volumes writable
+fileevent 
+filter_collection  -nocase -regexp
+find_cells  -library_cells -nolibrary_cells -of_objectID -type
+find_compare_points  -edits -list -status -type
+find_designs  -aborted -failing -not_verified -passing
+find_drivers  -hier -tech_cell_allowed
+find_equivalent_nets  -collection -fanin -list -nets
+find_nets  -hierarchy -of_objectID -type
+find_pins  -hierarchy -in -inout -of_objectID -out -type
+find_ports  -in -inout -of_objectID -out -type
+find_receivers  -hier -tech_cell_allowed
+find_references  -black_box -hierarchy -of_objectID
+find_region_of_nets  -cells -failing -implementation -recursive -reference
+find_segments  -tech_cell_allowed
+find_svf_operation  -command -status
+flush 
+for 
+foreach 
+foreach_in_collection 
+format 
+generate_eco_map_file  -replace -uncomment_single_operator_mappings
+get_app_var  -default -details -list -only_changed_vars
+get_attribute  -class -quiet -value_list
+get_cells  -filter -hierarchical -of_objects -quiet
+get_command_option_values  -command -current -default
+get_defined_commands  -details -groups
+get_designs  -filter -hierarchical -quiet
+get_lib_cells  -filter -of_objects -quiet
+get_lib_pins  -filter -of_objects -quiet
+get_libs  -filter -of_objects -quiet
+get_license 
+get_message_ids  -type
+get_message_info  -error_count -id -info_count -limit -occurrences -suppressed -warning_count
+get_nets  -filter -hierarchical -of_objects -quiet
+get_pins  -filter -hierarchical -of_objects -quiet
+get_ports  -filter -hierarchical -of_objects -quiet
+get_unix_variable 
+getenv 
+gets 
+glob 
+global 
+group  -cell_name -design_name
+guide  -SVF -append -timestamp -tool -version
+guide_architecture_db  -file
+guide_architecture_netlist  -file
+guide_arithmetic_fracture  -design -input -origin -output -post_assign -post_resource -pre_assign -pre_resource
+guide_boundary  -body -column -operand -resource
+guide_boundary_netlist  -file
+guide_change_names  -design -instance
+guide_checkpoint  -design -file -root -type -upf_implemented
+guide_constant  -constant0 -constant1 -constantX -design -type -verify_scope
+guide_constraints  -body -const0 -const1 -equivalent
+guide_datapath  -body -datapath -design -enable -instance -logic_input -odc_body
+guide_dont_verify_scan  -pins -ports -propagate
+guide_dsp_implementation  -body -design -instance
+guide_dsp_netlist  -file
+guide_dsp_pack  -block_resource -design -input -instance -output -pre_assign -pre_resource
+guide_eco_change  -eco -file_eco -file_orig -original -type
+guide_eco_map  -design -from -to
+guide_environment 
+guide_eqop  -design -equal -object -opposite -rewire -verify_scope
+guide_exec 
+guide_fsm_reencoding  -current_state_vector -design -previous_state_vector -state_reencoding
+guide_gcc_comb_latch  -clock -design -latch -neg_latch -pos_latch
+guide_gcc_comb_reg  -design -from_reg -to_reg
+guide_gcc_convert  -clock_register -design -load_register
+guide_gcc_latch_flop  -design -from_latch -to_flop
+guide_gcc_retime  -before_this_register -design -from_registers -to_register
+guide_group  -cells -design -instance -new_design -new_instance
+guide_group_function  -fcall -file -new_design -new_instance -output_name -param
+guide_hco_master_clk_port  -bbox_name -design
+guide_hco_master_clock  -design -port_name
+guide_hco_sync  -design -pin_name -port_name
+guide_icg_convert_edge  -cg_latch -clock_gate -clocked_registers -design -new_gate_register
+guide_icg_removal  -cg_latch -clock_gate -clocked_registers -design
+guide_implementation  -arch -design -instance
+guide_info  -file -version
+guide_instance_map  -design -instance -linked
+guide_instance_merging  -design -from -to
+guide_inv_push  -design -register
+guide_mark  -phase -type
+guide_mc  -design
+guide_merge  -datapath -design -input -output -pre_assign -pre_resource -type
+guide_mim_retiming  -design -relink -sets
+guide_multibit  -design -groups -type
+guide_multiplier  -arch -body -design -enable -instance -odc_body
+guide_netlist_table 
+guide_port_constant  -design -pins -ports -value
+guide_port_punch  -input -output -type
+guide_private  -root -skip
+guide_reg_constant  -design -replaced
+guide_reg_driver_info  -constant0 -constant1 -design -driver
+guide_reg_duplication  -design -from -to
+guide_reg_encoding  -design -from -to
+guide_reg_eqop  -design -from -to
+guide_reg_merging  -design -from -to
+guide_reg_removal  -cells -design
+guide_reg_split  -design -from -to
+guide_rename_design  -design -new_design
+guide_replace  -body -design -input -origin -output -post_assign -post_resource -pre_assign -pre_resource -type
+guide_retiming  -design -direction -input -libCell -output -resetStateDontCare
+guide_retiming_class  -design -leader -name
+guide_retiming_cross  -class -design -direction -from -to
+guide_retiming_decompose  -classChanged -design -postName -preName
+guide_retiming_dw_pipeline  -design -instance
+guide_retiming_finished 
+guide_retiming_move  -cell -class -design -direction -input -output
+guide_retiming_multibit  -design -multiName -splitNames
+guide_retiming_pinmap  -cell -design -pinmap -type
+guide_retiming_unmap  -cell -design -namemap
+guide_rewire  -design -from -to
+guide_scan_input  -design -disable_value -pins -ports
+guide_scan_output  -design -ports
+guide_set_rounding  -cells -design -rounding
+guide_share  -control -design -input -origin -output -post_assign -post_resource -pre_assign -pre_resource
+guide_timebegin 
+guide_timeend 
+guide_transformation  -ID -control -datapath -design -input -output -post_assign -post_resource -pre_assign -pre_resource -type -virtual
+guide_ungroup  -all -cells -design -flatten -instance -references -small -start_level
+guide_uniquify  -design
+guide_ununiquify  -design
+guide_upf_isolation  -cell -design -type
+help  -groups -verbose
+help_attributes  -verbose
+history  -h -r
+icc2_connect_to_socket 
+icc2_get_selected 
+icc2_highlight 
+icc2_highlight_collections 
+icc2_reset_highlights 
+icc2_write_server_script 
+icc_cache_collection 
+icc_connect_to_socket 
+icc_get_selected 
+icc_highlight 
+icc_highlight_collections 
+icc_reset_highlights 
+icc_write_server_script 
+if 
+incr 
+index_collection 
+info args body cmdcount commands complete default exists globals hostname level library loaded locals nameofexecutable patchlevel procs script sharedlibextension tclversion vars
+insert_inversion  -type
+interp 
+invert_pin 
+is_false 
+is_true 
+join 
+lappend 
+lassign 
+library_verification 
+license_users 
+lindex 
+link  -parameter -vhdl_arch
+linsert 
+list 
+list_attributes  -application -class -nosplit
+list_key_bindings  -nosplit
+list_libraries 
+list_licenses 
+llength 
+lmap 
+lminus  -exact
+load_upf  -container -force -i -r -scope -strict_check -supplemental -target -version
+lrange 
+lrepeat 
+lreplace 
+lreverse 
+ls 
+lsearch 
+lset 
+lsort  -ascii -command -decreasing -dictionary -increasing -index -integer -real -unique
+man 
+match 
+match_eco_regions 
+memory  -format -now -sub -tag -units
+namespace 
+neco_add_to_schematic 
+neco_apply_edits 
+neco_cache_collection 
+neco_connect_to_socket 
+neco_get_design_from_fm 
+neco_get_selected 
+neco_highlight 
+neco_highlight_collections 
+neco_reset_highlights 
+neco_send_changes_to_fm 
+neco_start 
+neco_write_server_script 
+open 
+package  forget ifneeded names present provide require unknown vcompare versions vsatisfies
+parse_proc_arguments  -args
+pid 
+preverify 
+print_message_info  -ids -summary
+print_suppressed_messages 
+printenv 
+printvar  -application -user_defined
+proc 
+proc_args args body cmdcount commands complete default exists globals hostname level library loaded locals nameofexecutable patchlevel procs script sharedlibextension tclversion vars
+proc_body args body cmdcount commands complete default exists globals hostname level library loaded locals nameofexecutable patchlevel procs script sharedlibextension tclversion vars
+puts 
+pwd 
+query_objects  -class -truncate -verbose
+quit 
+read 
+read_container  -container -i -r -replace
+read_db  -container -i -libname -merge -r -replace_black_box -technology_library
+read_ddc  -block_abstraction -container -i -libname -merge -r -replace_black_box -technology_library
+read_fsm_states 
+read_milkyway  -block_abstraction -cell_name -container -i -libname -no_pg -r -technology_library -version
+read_power_model  -container -i -libname -r
+read_sverilog  -05 -09 -12 -3.1a -F -L -container -define -extra_library_cells -f -i -libname -r -technology_library -uses -vcs -work_library
+read_verilog  -01 -05 -09 -95 -F -L -container -define -extra_library_cells -f -i -libname -netlist -r -technology_library -uses -vcs -work_library
+read_vhdl  -2008 -87 -93 -container -i -libname -r -technology_library -work_library
+record_edits  -off -on
+redirect  -append -channel -compress -file -tee -variable
+regexp  - -about -all -expanded -indices -inline -line -linestop -nocase -start lineanchor
+regsub  - -all -expanded -line -linestop -nocase -start lineanchor
+remove_black_box  -all -attribute
+remove_cell  -all
+remove_clock  -all
+remove_compare_rules 
+remove_constant  -all -type
+remove_constraint 
+remove_constraint_type 
+remove_container  -all
+remove_cutpoint  -all -type
+remove_design  -hierarchy -shared_lib
+remove_design_library  -all
+remove_dont_cut  -all -type
+remove_dont_match_points  -all -type
+remove_dont_verify_points  -all -directly_undriven_output -type
+remove_dp_int_round  -all
+remove_factor_point  -all -type
+remove_from_collection  -intersect
+remove_guidance 
+remove_input_value_range  -all
+remove_inv_push  -all -shared_lib
+remove_inversion  -all
+remove_library  -all
+remove_license 
+remove_mismatch_message_filter  -all -block -file -line -signal -suppress -warn
+remove_net  -all -hier
+remove_object  -shared_lib -type
+remove_parameters  -all_designs -all_parameters -flatten -resolution -retimed
+remove_port  -all
+remove_probe_points  -all
+remove_resistive_drivers  --
+remove_user_match  -all -type
+remove_verify_points  -all -type
+rename 
+rename_object  -container -file -reverse -shared_lib -type
+report_aborted_points  -always_reset -compare_rule -hard -inputs -last -list -loop -never_loads -point_type -status -substring
+report_always_on_cells  -allowed -disallowed -domain
+report_analysis_results  -summary
+report_app_var  -only_changed_vars -verbose
+report_architecture  -all -fm_pragma -hdlin_multiplier_architecture -set_architecture -svf
+report_black_boxes  -all -container -empty -i -interface_only -r -set_black_box -unread_tech_cell_pins -unresolved
+report_cell_list  -aborting -failing -filter -i -matched -passing -r -unmatched -verify
+report_checksum  -container -i -r
+report_clocks 
+report_compare_rules 
+report_constant_sources 
+report_constants 
+report_constraint  -long
+report_constraint_type  -long
+report_containers 
+report_cutpoints 
+report_design_libraries 
+report_designs 
+report_diagnosed_matching_regions  -expand
+report_dont_cuts 
+report_dont_match_points 
+report_dont_verify_points 
+report_dp_int_round 
+report_eco_impact  -all -scan -size -unread
+report_edits 
+report_electrical_checks  -edits -list -multiply_driven_pins -multiply_driven_ports -output_pins_tried_to_constants -unconnected_pins -unconnected_ports -undriven_nets -uninstantiated_designs -unreachable_cells -unread_nets
+report_error_candidates  -compare_point -design -expand -percentage -techlib
+report_factor_points 
+report_failing_points  -always_reset -compare_rule -inputs -last -list -matched -never_loads -point_type -status -substring -unmatched
+report_fsm  -name
+report_guidance  -datapath -long -pack -summary -to
+report_hdlin_mismatches  -container -implementation -reference -summary -verbose
+report_hierarchy  -level
+report_host_options 
+report_input_value_range 
+report_inv_push  -diff -script -svf
+report_inversion 
+report_libraries  -defects -merged_sequential_cells -short -unused_cells
+report_loops  -impl -limit -ref -unfold
+report_matched_points  -always_reset -compare_rule -datapath -except_status -inputs -last -list -method -never_loads -not_compared -point_type -status -substring -type
+report_mismatch_message_filters  -unmatched
+report_multidriven_nets  -implementation -reference -substring
+report_not_compared_points  -compare_rule -except_status -inputs -list -point_type -status -substring
+report_parameters 
+report_passing_points  -always_reset -compare_rule -inputs -last -list -never_loads -point_type -status -substring
+report_probe_points 
+report_probe_status  -status
+report_related_supplies  -drivers -receivers -type
+report_remove_objects 
+report_setup_status  -commands -design_info -hdl_read_messages
+report_status  -abort -fail -last -pass -short
+report_svf  -datapath -long -to
+report_svf_operation  -command -except_command -guide -message -status -summary
+report_truth_table  -constraint -display_fanin -fanin -max_fanin -max_line -nb_lines
+report_undriven_nets  -implementation -reference -substring
+report_unmatched_points  -always_reset -compare_rule -datapath -except_status -implementation -inputs -list -never_loads -point_type -reference -status -substring -type
+report_unread_endpoints  -all -cause -point_type
+report_unverified_points  -always_reset -cause -compare_rule -inputs -last -list -never_loads -point_type -status -substring
+report_upf  -container -i -instance_paths -isolation -power_switch -pst -r -retention -verbose
+report_user_matches  -inverted -noninverted -unknown
+report_verify_points 
+report_vhdl  -configuration -entity -package
+restore_session 
+return 
+rewire_connection  -from -invert -to -type
+run_alternate_strategies  -directory -max_parallel_runs -replace -run_all -session -strategies -tclfile -wait
+save_session  -replace
+scan 
+seek 
+select_cell_list  -add -clear -file -remove
+set 
+set::add 
+set::contains 
+set::create 
+set::create_empty_set 
+set::difference 
+set::fanin 
+set::fanout 
+set::from_find_equivalent_nets 
+set::get 
+set::instances 
+set::intersection 
+set::load 
+set::parents 
+set::remove 
+set::reset_highlights 
+set::save 
+set::selected 
+set::translate 
+set::union 
+set::validate 
+set_app_var  -default
+set_architecture 
+set_black_box  -attribute
+set_clock 
+set_compare_point  -inverted -noninverted -obsolete -type
+set_compare_rule  -file -from -to -type
+set_concurrent_setup 
+set_constant  -type
+set_constraint  -map -name
+set_current_command_mode  -command -mode
+set_cutpoint  -primary_input -type
+set_descartes_mode  -verbose
+set_direction  -shared_lib -type
+set_dont_cut  -type
+set_dont_match_points  -type
+set_dont_verify_points  -directly_undriven_output -propagate -type
+set_dp_int_round 
+set_eco_implementation 
+set_eco_reference 
+set_eco_svf 
+set_factor_point  -type
+set_fm_script  -exit -post -pre
+set_fsm_encoding  -name
+set_fsm_state_vector  -match -name
+set_host_options  -local_process -max_cores
+set_implementation_design 
+set_input_value_range 
+set_inv_push  -shared_lib
+set_master_mode  -regr -verbose
+set_message_info  -id -limit -stop_off -stop_on
+set_mismatch_message_filter  -block -file -line -signal -suppress -warn
+set_num_licenses 
+set_orig_implementation 
+set_orig_reference 
+set_parameters  -flatten -resolution -retimed
+set_probe_points  -inverted
+set_reference_design 
+set_svf  -append -extension -ordered
+set_svf_retiming  -cell -design -enable
+set_top  -auto -config -parameter -vhdl_arch
+set_unix_variable 
+set_user_match  -inverted -noninverted -type
+set_verify_points  -file -type
+set_vsdc  -append -extension -ordered
+setenv 
+setup 
+sh 
+sizeof_collection 
+socket 
+sort_collection  -descending -dictionary
+source  -continue_on_error -echo -verbose
+split 
+start_gui 
+stitch_eco_regions  -prefix -replace
+stop_gui 
+string  bytelength compare equal first index is last length map match range repeat replace tolower totitle toupper trim trimleft trimright wordend wordstart
+subst 
+suppress_message 
+switch  -exact -glob -regexp
+tailcall 
+tell 
+test_compare_rule  -from -i -name -r -substring -to -type
+then 
+throw 
+time 
+trace 
+translate_instance_pathname  -type
+try 
+unalias 
+undo_edits 
+undo_match  -all
+ungroup  -all -flatten -prefix -simple_names
+uniquify 
+unset 
+unsetenv 
+unsuppress_message 
+update 
+uplevel 
+upvar 
+variable 
+verify  -constant0 -constant1 -incremental -inverted -level -matchonly -nolink -probe -restart -type
+verify_edits 
+vwait 
+which 
+while 
+write_app_var  -all -only_changed_vars -output
+write_container  -container -i -pre_set_top -quiet -r -replace
+write_eco_regions  -replace
+write_edits  -replace
+write_functional_matches  -file
+write_hierarchical_verification_script  -block -dont_resolve_failures -level -match -noconstant -noequivalence -path -replace -save_directory -save_file_limit -save_mode -save_time_limit -top_level_only
+write_library_debug_scripts  -dir
+write_power_model  -container -i -r -replace
+write_register_mapping  -replace
+yield 
+yieldto 
