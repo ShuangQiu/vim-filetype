@@ -14,4 +14,6 @@ autocmd BufNewFile,BufRead cds*.lib,assura*.lib   setfiletype cdslib
 autocmd BufRead */spectre/schematic/netlist/netlist  setf spectre
 autocmd BufRead,BufNewFile * if getline(2) =~ '^\/\{2}\sLibrary\sname:' && getline(3) =~ '^\/\{2}\sCell\sname:' && getline(4) =~ '^\/\{2}\sView\sname:'|setf spectre|endif
 
+autocmd Filetype gitcommit setlocal spell textwidth=80
+
 augroup END
